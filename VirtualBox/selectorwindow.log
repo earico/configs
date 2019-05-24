@@ -1,0 +1,37 @@
+00:00:00.318122 VirtualBox GUI VM Selector Window 6.0.6 r129722 linux.amd64 (Apr 21 2019 17:21:37) release log
+00:00:00.318125 Log opened 2019-05-02T19:29:04.184189000Z
+00:00:00.318126 Build Type: release
+00:00:00.318128 OS Product: Linux
+00:00:00.318130 OS Release: 5.0.9-arch1-1-ARCH
+00:00:00.318131 OS Version: #1 SMP PREEMPT Sat Apr 20 15:00:46 UTC 2019
+00:00:00.318155 DMI Product Name: Q325UAR
+00:00:00.318164 DMI Product Version: 1.0       
+00:00:00.318209 Host RAM: 15896MB (15.5GB) total, 14678MB (14.3GB) available
+00:00:00.318213 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.318213 Process ID: 2230
+00:00:00.318214 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.318244 Qt version: 5.12.3
+00:00:00.337817 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.337856 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.584594 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 32x58 x 919x990
+00:00:00.607293 Failed to open "/dev/vboxdrv", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.629056 refreshCertificates/#1: Certificate '/etc/ca-certificates/extracted/objsign-ca-bundle.pem' is empty
+00:00:00.632117 refreshCertificates/#3: Found 1/308 SSL certs we/you trust (previously 0/0).
+00:00:15.008538 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:15.008661 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:33.750658 GUI: UIMediumEnumerator: Medium with key={{32839cf7-e934-4bb9-a74d-e53314f2a84e}} created
+00:01:33.845998 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:17.460897 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:03:17.853335 2D support test succeeded
+00:03:17.971168 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:59.663055 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:18:59.925359 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:16.841234 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:21:16.841291 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:46.966148 GUI: UIMediumEnumerator: Medium with key={{bc0db39c-81f7-4d49-abb4-04574d48bff8}} created
+00:24:47.060975 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:25:28.527030 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:25:47.968014 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:25:48.198207 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:26:20.210662 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:26:51.504677 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

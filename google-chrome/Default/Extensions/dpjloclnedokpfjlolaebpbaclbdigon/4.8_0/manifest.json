@@ -1,0 +1,22 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*://api.twitch.tv/*" ],
+      "js": [ "script.js" ],
+      "matches": [ "*://*.twitch.tv/*" ]
+   } ],
+   "description": "An add-on for enhancing functionality of \"FrankerFaceZ\"",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDF+JxgzvUFMgzMzZlhPO7WhKJ7kqs8mpkaASoqLbae81d4AcDnkJxGig8AcmnUCIav0lMnp/BBBf/mZlJd0mw1QpnPa7LTqACDDalDWX2znkjE3IEiPdqBBKoyqo3F93KfpGzfsDo5HFg1hnlIoLvzHdtPmksaBNyANOBGX2bJDwIDAQAB",
+   "manifest_version": 2,
+   "name": "The FFZ Enhancing Add-On",
+   "permissions": [ "*://*.twitch.tv/*" ],
+   "short_name": "ffzenhancing",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.8",
+   "web_accessible_resources": [ "ffzenhancing.js", "ffzenhancing.css", "bell.mp3", "badge_18.png" ]
+}

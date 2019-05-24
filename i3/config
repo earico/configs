@@ -196,5 +196,6 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
+exec_always --no-startup-id nm-applet
 exec_always --no-startup-id compton
 exec_always --no-startup-id $HOME/.config/polybar/polyrun.sh

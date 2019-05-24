@@ -1,0 +1,6 @@
+2019/05/24-11:06:05.533 77e Reusing MANIFEST /home/antwon/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/24-11:06:05.533 77e Recovering log #162
+2019/05/24-11:06:05.540 77e Reusing old log /home/antwon/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000162.log 
+2019/05/24-11:06:06.923 792 Level-0 table #166: started
+2019/05/24-11:06:06.934 792 Level-0 table #166: 729474 bytes OK
+2019/05/24-11:06:06.936 792 Delete type=0 #162

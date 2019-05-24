@@ -1,0 +1,11 @@
+2019/05/16-09:41:37.191 ab5 Reusing MANIFEST /home/antwon/.config/google-chrome/Default/IndexedDB/https_www.nationalgeographic.org_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/16-09:41:37.191 ab5 Recovering log #6
+2019/05/16-09:41:37.191 ab5 Reusing old log /home/antwon/.config/google-chrome/Default/IndexedDB/https_www.nationalgeographic.org_0.indexeddb.leveldb/000006.log 
+2019/05/16-09:41:45.197 ab5 Current memtable full; waiting...
+2019/05/16-09:41:45.197 6c6 Level-0 table #10: started
+2019/05/16-09:41:45.199 6c6 Level-0 table #10: 434 bytes OK
+2019/05/16-09:41:45.202 6c6 Delete type=0 #6
+2019/05/16-09:41:45.202 6c6 Level-0 table #12: started
+2019/05/16-09:41:45.202 6c6 Level-0 table #12: 0 bytes OK
+2019/05/16-09:41:45.205 6c6 Delete type=0 #9
+2019/05/16-09:41:45.205 6c6 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

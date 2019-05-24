@@ -1,0 +1,145 @@
+00:00:00.000116 main     VirtualBox XPCOM Server 6.0.6 r129722 linux.amd64 (Apr 21 2019 17:21:37) release log
+00:00:00.000118 main     Log opened 2019-05-02T19:29:03.969512000Z
+00:00:00.000118 main     Build Type: release
+00:00:00.000120 main     OS Product: Linux
+00:00:00.000121 main     OS Release: 5.0.9-arch1-1-ARCH
+00:00:00.000122 main     OS Version: #1 SMP PREEMPT Sat Apr 20 15:00:46 UTC 2019
+00:00:00.000136 main     DMI Product Name: Q325UAR
+00:00:00.000145 main     DMI Product Version: 1.0       
+00:00:00.000171 main     Host RAM: 15896MB (15.5GB) total, 14680MB (14.3GB) available
+00:00:00.000173 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000174 main     Process ID: 2253
+00:00:00.000174 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001547 main     IPC socket path: /tmp/.vbox-antwon-ipc/ipcd
+00:00:00.107153 nspr-2   VirtualBox: object creation starts
+00:00:00.107305 nspr-2   Home directory: '/home/antwon/.config/VirtualBox'
+00:00:00.121795 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.123213 nspr-2   NAT: resolv.conf: nameserver 172.18.253.200
+00:00:00.123247 nspr-2   NAT: resolv.conf: nameserver 172.16.253.245
+00:00:00.123273 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.123346 nspr-2   HostDnsMonitor: old information
+00:00:00.123355 nspr-2     no server entries
+00:00:00.123363 nspr-2     no domain set
+00:00:00.123369 nspr-2     no search string entries
+00:00:00.123376 nspr-2   HostDnsMonitor: new information
+00:00:00.123382 nspr-2     server 1: 172.18.253.200
+00:00:00.123391 nspr-2     server 2: 172.16.253.245
+00:00:00.123398 nspr-2     domain: hcad.domain
+00:00:00.123404 nspr-2     no search string entries
+00:00:00.129025 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.129403 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129578 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.130364 nspr-2   VirtualBox: object created
+00:00:00.953862 nspr-2   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.975628 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:14.738794 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:14.741336 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:33.006093 createBase Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:33.666044 nspr-3   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.15-linux"
+00:01:33.679275 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:33.682443 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.15-linux"
+00:01:33.686003 nspr-2   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:33.691728 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:33.695822 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.15-linux"
+00:01:33.707231 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:01:34.061210 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:34.115485 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:34.193486 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:34.194293 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:17.297790 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:17.383071 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:17.833976 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:17.834152 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:17.834260 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:17.844259 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:03:17.849211 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:03:17.857038 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:17.857355 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:17.942740 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:03:17.949475 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:03:17.950132 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:59.480391 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:59.586442 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:59.805238 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:59.805590 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:59.805848 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:59.819591 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:18:59.827811 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:18:59.838377 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:59.838899 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:59.923659 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:59.933120 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:59.934002 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:14.325759 nspr-4   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:14.960231 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:21:15.021224 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:15.030831 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:15.031924 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:16.672298 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:16.675017 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:16.775761 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:16.779878 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:16.780459 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:46.231501 createBase Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:46.879434 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.16-linux"
+00:24:46.892048 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:46.896329 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.16-linux"
+00:24:46.899965 nspr-2   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:46.907023 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:46.910998 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.16-linux"
+00:24:46.927713 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:24:46.962640 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:24:46.968633 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:46.969538 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:47.282531 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:47.328753 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:24:47.343068 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:47.343780 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:22.820256 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:22.829553 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:22.830265 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:23.302799 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The virtual machine 'hannah' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:25:23.903750 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:23.915198 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:23.915836 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:47.818137 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:47.886260 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:48.080893 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:48.081016 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:48.081109 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:48.101593 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:25:48.106850 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:25:48.113550 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:48.113853 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:48.165272 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:48.175904 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:25:48.182855 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:25:48.183568 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:19.885286 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:19.888045 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.16-linux"
+00:26:20.009297 nspr-2   Saving settings file "/home/antwon/VirtualBox VMs/hannah/hannah.vbox" with version "1.16-linux"
+00:26:20.118817 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:26:20.126361 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:20.127021 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:32.939159 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:26:32.947733 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:32.948523 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:33.425216 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The virtual machine 'hannah' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:26:33.964851 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:26:33.976004 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:26:33.976945 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:27:12.734973 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:13.257340 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:27:13.321654 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:27:13.329537 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:27:13.330337 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:27:16.906209 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:17.026405 nspr-3   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:17.037636 nspr-4   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:17.064544 nspr-4   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:17.077118 nspr-2   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:17.088385 nspr-4   Saving settings file "/home/antwon/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:27:22.617133 main     VirtualBox: object deletion starts
+00:27:22.963677 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:27:27.618382 main     {00007efd800152b0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:27:27.618849 main     VirtualBox: object deleted

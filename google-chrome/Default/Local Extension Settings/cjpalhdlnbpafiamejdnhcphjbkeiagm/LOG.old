@@ -1,0 +1,24 @@
+2019/05/10-13:29:52.513 316 Reusing MANIFEST /home/antwon/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2019/05/10-13:29:52.514 316 Recovering log #156
+2019/05/10-13:29:52.514 316 Reusing old log /home/antwon/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000156.log 
+2019/05/10-13:30:04.702 59f Level-0 table #160: started
+2019/05/10-13:30:04.738 59f Level-0 table #160: 2843176 bytes OK
+2019/05/10-13:30:04.741 59f Delete type=0 #156
+2019/05/10-13:41:04.949 59f Level-0 table #162: started
+2019/05/10-13:41:04.994 59f Level-0 table #162: 2472028 bytes OK
+2019/05/10-13:41:04.997 59f Delete type=0 #159
+2019/05/10-13:41:04.997 59f Compacting 4@0 + 4@1 files
+2019/05/10-13:41:05.035 59f Generated table #163@0: 10 keys, 2274800 bytes
+2019/05/10-13:41:05.070 59f Generated table #164@0: 12 keys, 2392335 bytes
+2019/05/10-13:41:05.121 59f Generated table #165@0: 7 keys, 2607615 bytes
+2019/05/10-13:41:05.136 59f Generated table #166@0: 12 keys, 415575 bytes
+2019/05/10-13:41:05.136 59f Compacted 4@0 + 4@1 files => 7690325 bytes
+2019/05/10-13:41:05.140 59f compacted to: files[ 0 4 1 0 0 0 0 ]
+2019/05/10-13:41:05.140 59f Delete type=2 #153
+2019/05/10-13:41:05.141 59f Delete type=2 #160
+2019/05/10-13:41:05.141 59f Delete type=2 #155
+2019/05/10-13:41:05.142 59f Delete type=2 #150
+2019/05/10-13:41:05.143 59f Delete type=2 #157
+2019/05/10-13:41:05.144 59f Delete type=2 #151
+2019/05/10-13:41:05.145 59f Delete type=2 #152
+2019/05/10-13:41:05.145 59f Delete type=2 #162

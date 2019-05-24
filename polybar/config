@@ -51,9 +51,11 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = inconsolata:size=14:antialias=true;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+font-0 = Inconsolata:size=14:weight=bold;1
+font-1 = unifont:fontformat=truetype:size=18:antialias=false;0
+font-2 = Font Awesome 5 Brands:pixelsize=15;3
+font-3 = Font Awesome 5 Free Regular:pixelsize=15;3
+font-4 = Font Awesome 5 Free Solid:pixelsize=15;3
 
 modules-left = bspwm i3
 modules-center = 
@@ -87,10 +89,10 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
+;format-prefix-underline = ${colors.secondary}
 
 label-layout = %layout%
-label-layout-underline = ${colors.secondary}
+;label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -204,21 +206,20 @@ bar-empty-foreground = ${colors.foreground-alt}
 inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
-
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = ❖ 
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = %percentage:2%%
+;format-underline = #f90000
+label = ❖ %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = "🐏 "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+;format-underline = #4bffdc
 label = %percentage_used%%
 
 [module/wlan]
@@ -227,7 +228,7 @@ interface = wlp1s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+;format-connected-underline = #9f78e1
 label-connected = %essid%
 
 format-disconnected =
@@ -269,9 +270,9 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = "⌚ "
+format-prefix = ⌚ 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+;format-underline = #0a6cf5
 
 label = %date% %time%
 
@@ -336,31 +337,37 @@ battery = BAT0
 adapter = AC0
 full-at = 98
 
+;format-capacity = <ramp-capacity> <label-capacity>
+;format-capacity-underline = #FFFFFF
+
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+;format-charging-underline = #ffb52a
 
-format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+format-discharging = <ramp-capacity> <label-discharging>
+;format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = "bat "
-format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full-prefix-foreground = #F9FFCE
+;format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-foreground = #F9FFCE
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-foreground = #F9FFCE
 animation-charging-framerate = 750
 
 animation-discharging-0 = 
 animation-discharging-1 = 
 animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-foreground = #F9FFCE
 animation-discharging-framerate = 750
 
 [module/temperature]
@@ -368,10 +375,10 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format-prefix = "🔥 "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix =  
+format-prefix-foreground = #F9FFCE
 format = <ramp> <label>
-format-underline = #f50a4d
+;format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
@@ -391,7 +398,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = POW
+label-open = 
 label-open-foreground = ${colors.secondary}
 label-close = > cancel
 label-close-foreground = ${colors.secondary}
